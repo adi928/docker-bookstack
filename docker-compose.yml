@@ -7,6 +7,7 @@ services:
     - MYSQL_DATABASE=bookstack
     - MYSQL_USER=bookstack
     - MYSQL_PASSWORD=secret
+    - APP_URL=https://wiki.michiana-infosec.com
     volumes:
     - mysql-data:/var/lib/mysql
 
